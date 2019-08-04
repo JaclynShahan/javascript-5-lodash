@@ -282,11 +282,11 @@ const myEmployees = [
   }
 ];
 
-const myEmployeesAddresses = 0; // use map to get addresses here.
+const myEmployeesAddresses = _.map(myEmployees, 'address')// use map to get addresses here.
 
 // Now we want to use map to get an array of ages of the employees.
 
-const myEmployeesAges = 0; // use map to get ages here.
+const myEmployeesAges = _.map(myEmployees, 'age') // use map to get ages here.
 
 // union
 //  Union lets us take 2 arrays, and create a new array that only has 1 entry for
